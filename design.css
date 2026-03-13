@@ -5,7 +5,7 @@
 }
 
 body {
-  line-height: 1.5; 
+  line-height: 1; 
 }
 
 .header {
@@ -26,12 +26,12 @@ h3 {
     align-items: baseline;
     flex-wrap: wrap;
     gap: 1rem;
-  margin: 0
 }
 
 
 section {
-  margin-bottom: 1.5rem; 
+    margin-top: 0;
+  margin-bottom: 1rem; 
 }
 
 ul {
@@ -42,10 +42,11 @@ ul {
 
 /* Items de lista */
 li {
-  margin-bottom: 0.25rem; 
+    margin-top: 0;
+  margin-bottom: 0.20rem; 
 }
 
 p {
   margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.20rem;
 }
